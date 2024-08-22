@@ -1,58 +1,37 @@
-# Docus Starter
-
-Starter template for [Docus](https://docus.dev).
-
-## Clone
-
-Clone the repository (using `nuxi`):
-
-```bash
-npx nuxi init -t themes/docus
-```
-
-## Setup
-
-Install dependencies:
-
-```bash
-yarn install
-```
-
-## Development
-
-```bash
-yarn dev
-```
-
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
+---
+title: Home
+navigation: false
+layout: page
+main:
+  fluid: false
 ---
 
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
-# assurify-documentation
+:ellipsis{right=0px width=75% blur=150px}
+
+::block-hero
+---
+cta:
+  - Get started
+  - /introduction/getting-started
+secondary:
+  - View on Shopify Store →
+  - https://github.com/nuxt-themes/docus
+---
+
+#title
+Assurify Shipping Insurance
+
+#description
+Get started in minutes with Assurify: Manage Refund, Return or Replace easily while boosting AOV.
+
+#extra
+  ::list
+  - Integrated **Return Management** System to minimize handling cost further.
+  - Integrated Claim Management for customers to handle **Refund**, **Reorder** or **Replacement**.
+  - Easy and intuitive setup procedure without any need of support.
+  - Enjoy peace of mind with a secure, integrated portal directly in store backend.
+  - Boost profits by keeping the premium charged at checkout all to yourself.
+  - Easy Claims Handling, Streamlined portal, and one-click customer submissions.
+  ::
+
+
